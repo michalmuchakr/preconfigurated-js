@@ -1,0 +1,26 @@
+{
+  "name": "modern-js-bolireplate",
+  "version": "1.0.0",
+  "description": "Preconfigurated modern js boilerplate",
+  "main": "src/index.js",
+  "scripts": {
+    "start-hot": "webpack-dev-server --hot --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "browserslist": [
+    "defaults",
+    "IE 11",
+    "maintained node versions"
+  ]
+}

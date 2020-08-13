@@ -4,19 +4,24 @@
   "description": "Preconfigurated modern js boilerplate",
   "main": "src/index.js",
   "scripts": {
-    "start-hot": "webpack-dev-server --hot --mode development --open",
+    "run:dev": "webpack-dev-server --hot --mode development --open",
     "build": "webpack --mode production",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --collect-coverage",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "@babel/core": "7.10.4",
+    "@babel/preset-env": "7.11.0",
+    "babel-loader": "8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "26.2.2",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
   },
   "browserslist": [
     "defaults",

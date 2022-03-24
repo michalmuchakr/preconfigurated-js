@@ -32,6 +32,6 @@
     "maintained node versions"
   ],
   "dependencies": {
-    "node-forge": "0.10.0"
+    "node-forge": "1.3.0"
   }
 }
